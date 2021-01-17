@@ -1,0 +1,16 @@
+{
+  "name": "@arnau/whirl-darwin-x64",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "whirl.darwin-x64.node",
+  "files": [
+    "whirl.darwin-x64.node"
+  ],
+  "engines": {
+    "node": ">= 10"
+  }
+}

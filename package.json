@@ -1,0 +1,27 @@
+{
+  "name": "@arnau/whirl",
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": ["napi-rs", "n-api", "seachess"],
+  "description": "A whirl of seachess.",
+  "napi": {
+    "name": "whirl",
+    "triples": {}
+  },
+  "dependencies": {
+    "@node-rs/helper": "^1.0.0"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^1.0.2"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "artifacts": "napi artifacts",
+    "build": "napi build --platform --release",
+    "build:debug": "napi build --platform",
+    "prepublishOnly": "napi prepublish -t npm",
+    "version": "napi version"
+  }
+}
